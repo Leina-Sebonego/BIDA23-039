@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Feedback.css">
+    <title>Warner Bros redesign</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+ <div class="navbar">
+    <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo"><img class="logo-picture" src="warner-bros-logo-B989EBE325-seeklogo.com.png"></h1></div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                
+                <li class="menu-list-item"><a href="newWarner.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li class="menu-list-item"><a href="movies.html" style="color: white; text-decoration: none;">Movies</a></li>
+                <li class="menu-list-item"><a href="TV-Shows.html" style="color: white; text-decoration: none;">TV Shows</a></li>
+                <li class="menu-list-item"><a href="Games-&-Apps.html" style="color: white; text-decoration: none;">Games & Apps</a></li>
+                <li class="menu-list-item"><a href="Collections.html" style="color: white; text-decoration: none;">Collections</a></li>
+                
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-picture" src=profile-image.jpg >
+            <div class="profile-text-container">
+                <span class= "profile-text">Profile</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>  
+ <form action="/submit-form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
